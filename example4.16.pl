@@ -5,3 +5,4 @@ $number=@names;             #The scalar is assigned the umber of elements in the
 
 print "There are $number elements in the \@names array.\n";
 print "The last element of the array is $names[$number -1].\n";
+print "The last element of the array is $names[$#names].\n"; #remember the subscript starts at zero
