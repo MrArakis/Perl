@@ -5,7 +5,7 @@
 print "**********\n";
 
 print @colors,"\n";     #prints entire array, but does not separate elements
-print "@colors,\n";     #quoted, prints the entire array with elements separated.
+print "@colors\n";     #quoted, prints the entire array with elements separated.
 
 print "**********\n";
 
